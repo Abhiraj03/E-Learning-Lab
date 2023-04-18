@@ -1,0 +1,8 @@
+.progress {
+    width: 40%;
+    display: block;
+}
+
+.list-group-item{
+    border: 1px white;
+}

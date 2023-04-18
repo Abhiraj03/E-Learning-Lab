@@ -1,0 +1,88 @@
+.container2{
+    width: 100%;
+    height:100%;
+    background-image: linear-gradient(to bottom right, rgba(144,69,243,255), rgba(96,197,244,255));
+    background-color:red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgba(146,68,244,255), rgba(96,197,244,255));
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-box-inner{    
+    position: absolute;
+    background: rgba(235,235,235,255);
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+.input-box{
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: #ebebeb;
+    padding: 10px;
+    width: 200%;
+    outline: 0;
+    color: gray;
+}
+
+.flexboxrow{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexboxrow .input-box {
+    flex-basis: 48%;
+}
+
+.btn1 {
+    margin-left: 50%;
+    margin-right: 50%;
+    background: linear-gradient(to bottom right, rgba(146,68,244,255), rgba(96,197,244,255));
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10%;
+    text-align: center;
+    
+}
+
+.create{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h1 ,h1{
+    font-size: 1.5rem;
+}
+
+/*input::placeholder {
+    background-color: rgb(128, 128, 50);
+    content: 'hello';
+}*/
+
+.input-box.fname {
+    float: left;
+    width: 87%;
+}
+
+.input-box.lname {
+    position: fixed;
+    right: 6%;
+    top: 22%;
+    width: 45%;
+}
