@@ -73,7 +73,7 @@
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
 
 
             </div>
@@ -166,58 +166,58 @@
         <div class="image-cont">
             <img class="image-content" src="{{ user.profile.profile_image.url }}" alt="Card image cap">
             <!--Update Profile-->
-            <a class="btn btn-sm btn-dark float-right" href="{% url 'update_profile' %}"><span>&#9998;</span></a>
+            <a class="btn btn-sm btn-dark float-right" href="{% url 'update_profile' %}" style="background-color: black; color: #83D1D6;"><span>&#9998;</span></a>
         </div>
-        <div class="text-container">
-            <p><b><p style="font-size:3ch;">{{user.username}}</p></b> 
+        <div class="text-container" style="color: white;">
+            <p style=""><b><p style="font-size:3ch; color: white;">{{user.username}}</p></b>
             Student Since <br>
             {{ user.profile.created_at }}</p>
         </div>
     </div>
 </div>
     <div class="box-element2">
-    <div class = "container1">
+    <div class = "container1" style="background-color: #83D1D6;">
         <div class="drp-container">
             <ul>
-                <div class="drp-content">
+                <div class="drp-content" style="background-color: black;">
                     <li></li>
                     <label for="toggle">
-                    <span>User Info </span><span class="arrow">&#9660;</span></label><a class="btn btn-sm btn-darks"   href="{% url 'update_profile' %}" style="border-radius: 10px;background-color: #343a40; color: white; float: right; margin-right: 2%; margin-top: 1%;"><span>&#9998;</span></a>
+                    <span style="color: white;">User Info </span><span class="arrow" style="color: #83D1D6;">&#9660;</span></label><a class="btn btn-sm btn-darks"   href="{% url 'update_profile' %}" style="border-radius: 10px; color:#83D1D6; float: right; margin-right: 2%; margin-top: 1%;"><span>&#9998;</span></a>
                     <input type="checkbox" id="toggle">
-                    <div class="content">First Name: {{ user.profile.first_name }}<br>
-                                         Last Name: {{ user.profile.last_name }}<br> 
+                    <div class="content" style="color: #969696;">First Name: {{ user.profile.first_name }}<br>
+                                         Last Name: {{ user.profile.last_name }}<br>
                                          Grade: {{ user.profile.grade_level }}<br>
                                          Email: {{ user.email }}<br>
                                          Birthday: {{ user.profile.birthdate }}<br>
                                          Location: {{ user.profile.location }}<br>
                     </div>
                     </div>
-                <div class="drp-content1">
+                <div class="drp-content1" style="background-color: black;">
                     <li></li>
                     <label for="toggle1">
-                    <span>My Courses</span><span class="arrow">&#9660;</span></label>
+                    <span style="color: white;">My Courses</span><span class="arrow" style="color: #83D1D6;">&#9660;</span></label>
                     <input type="checkbox" id="toggle1">
-                    <div class="content">Course:</div>
+                    <div class="content" style="color: #969696;">COMING SOON</div>
                 </div>
-                <div class="drp-content1">
+                <div class="drp-content1" style="background-color: black;">
                     <li></li>
                     <label for="toggle2">
-                    <span>My Projects</span><span class="arrow">&#9660;</span></label>
+                    <span style="color: white;">My Projects</span><span class="arrow" style="color: #83D1D6;">&#9660;</span></label>
                     <input type="checkbox" id="toggle2">
-                    <div class="content">Projects : </div>
+                    <div class="content" style="color: #969696;">COMING SOON</div>
                 </div>
-                <div class="drp-content1">
+                <div class="drp-content1" style="background-color: black;">
                     <li></li>
                     <label for="toggle3">
-                    <span>My Games</span><span class="arrow">&#9660;</span></label>
+                    <span style="color: white;">My Games</span><span class="arrow" style="color: #83D1D6;">&#9660;</span></label>
                     <input type="checkbox" id="toggle3">
-                    <div class="content">Games: </div>
+                    <div class="content" style="color: #969696;">COMING SOON</div>
                 </div>
             </ul>
         </div>
     </div>
 </div>
-                
+
 </div>
 
 {% endblock %}

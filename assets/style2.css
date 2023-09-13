@@ -105,7 +105,7 @@
 }
 
 .circle {
-	line-height: 0;		/* remove line-height */ 
+	line-height: 0;		/* remove line-height */
 	display: inline-block;	/* circle wraps image */
 	margin: 5px;
   border: 2px solid rgba(255,255,255,0.4);
@@ -347,16 +347,16 @@
     color:white;
     padding:2rem 0 2rem;
     padding-top:1rem ;
-  
+
   } */
 
   html *{
     font-family: 'Roboto', sans-serif !important;
 
   }
-  
+
   footer img{
-  
+
     margin:1rem 0;
   }
   .body{
@@ -364,7 +364,7 @@
     font-family: 'Roboto', sans-serif;
     color: #505962;
   }
-  
+
   /* Navigation */
   .navbar{
     text-transform: uppercase;
@@ -375,22 +375,22 @@
     background-color: black;/*rgba(255, 255, 255, 0.6)!important;*/
   }
   .navbar-brand {
-  /*height*/  
+  /*height*/
     color: aqua !important;
   }
   .navbar-nav li{
     padding-right: .7rem;
   }
-  
+
   .navbar-dark .navbar-nav .nav-link{
     padding-top: .8rem;
   }
-  
+
 
   .nav-link{
     color: white !important;
   }
-  
+
 /* Style the tab */
 .tab {
   overflow: hidden;
@@ -432,7 +432,7 @@
   .row {
     margin-right: 0% !important;
   }
-  
+
   .home-inner{
     /* background: url("/assests/Circuit_Background.mp4") no-repeat center center fixed;  */
     -webkit-background-size: cover;
@@ -459,7 +459,7 @@
     color: white;
 
   }
-  
+
   .caption h1{
     font-size:  3.8rem;
     font-weight: 700;
@@ -471,7 +471,7 @@
     font-size: 2rem;
     text-shadow: .1rem .1rem .5rem black;
     padding-bottom: .6rem;
-  
+
   }
   .btn-lg{
     border-width: medium;
@@ -479,7 +479,7 @@
     padding: .6rem 1.3rem;
     font-size: 1.1rem;
   }
-  
+
   /*============= CONTACT FORM =============*/
 
   .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
@@ -876,7 +876,7 @@ height: 100%;
     height: 235px;
   border-top-left-radius: 12px;
 border-top-right-radius: 12px;
-  
+
 }
 
 .card__info-hover {
@@ -898,7 +898,7 @@ border-top-right-radius: 12px;
   border-top-left-radius: 12px;
 border-top-right-radius: 12px;
 top: 0;
-  
+
 }
 /* .card {
   margin-right: 25px;
@@ -910,10 +910,10 @@ top: 0;
   overflow: hidden;
   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
 } */
-.card:hover {
+/* .card:hover {
   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
     transform: scale(1.10, 1.10);
-}
+} */
 
 .card__info {
 z-index: 2;
@@ -986,17 +986,17 @@ border-bottom-right-radius: 12px;
   }
 
 
-  @media (min-width: 250px) { 
+  @media (min-width: 250px) {
 .caption h1{  font-size: 2.5rem;}
-.caption h5{  font-size: 1.2rem; padding-right: 2rem;} 
+.caption h5{  font-size: 1.2rem; padding-right: 2rem;}
 .about p{font-size: 0.8rem;}
-.title h1{font-size: 2rem} 
+.title h1{font-size: 2rem}
 iframe{width: 300px; height: 300px;}
 }
 
 
-  
-@media (min-width: 576px) { 
+
+@media (min-width: 576px) {
 .caption h1{  font-size: 2.5rem;}
 .caption h5{  font-size: 1.4rem;}
 .about p{font-size: 0.8rem;}
@@ -1004,11 +1004,11 @@ iframe{width: 300px; height: 300px;}
 iframe{width: 500px; height: 300px;} }
 
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 .caption h1{  font-size:  2.8rem;}
 .caption h5{  font-size: 1.6rem;}
-.about p{font-size: 1rem;} 
-.title h1{font-size: 2.4rem} 
+.about p{font-size: 1rem;}
+.title h1{font-size: 2.4rem}
 iframe{width: 700px; height: 500px;}}
 
 
@@ -1020,10 +1020,15 @@ iframe{width: 700px; height: 500px;}}
 iframe{width: 800px; height: 600px;}  }
 
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 .caption h1{  font-size:  3.8rem;}
 .caption h5{  font-size: 2rem;}
 .about p{font-size: 1.2rem;}
 .title h1{font-size: 2.8rem}
 iframe{width: 800px; height: 600px;}}
 
+/* Profile Page Update Changes */
+
+.d-flex .flex-column .text-center{
+  margin-bottom: 24px;
+}
