@@ -28,7 +28,7 @@ with open('secret_key.txt') as f:
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['207.154.236.200', 'wwww.elearning-lab.org', 'elearning-lab.org','virtual-learning-lab.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['207.154.236.200', 'wwww.elearning-lab.org', 'elearning-lab.org','virtual-learning-lab.herokuapp.com', '127.0.0.1','localhost']
 
 # Application definition
 
@@ -101,7 +101,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
-    
+
 }
 
 # Password validation
@@ -143,7 +143,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = ( 
+STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "assets"),
 )
 LOGIN_REDIRECT_URL = '/'
