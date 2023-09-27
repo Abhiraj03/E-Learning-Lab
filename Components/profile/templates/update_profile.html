@@ -5,20 +5,21 @@
 {% block page_content %}
 
 <div id="update-profile" class="m-auto col-lg-6 align-items-center">
-    <div class="card shadow mb-3">
-        <div class="d-flex flex-column text-center">
+    <div class="card shadow mb-3" style="border-top: 7px solid #969696; border-left: 7px solid #969696;">
+        <div class="d-flex flex-column text-center" style="background-color: black; color: white;">
             <div class="card-title mt-4 mb-0">
                 <h4>Update Profile</h4>
             </div>
+            <hr style="background-color: #83D1D6; height: 10px; margin: 0;">
         </div>
-        <hr>
-        <div class="card-body">
+
+        <div class="card-body" style="background-color: black;">
 
             <div>
-                <form method="post" enctype="multipart/form-data">
+                <form method="post" enctype="multipart/form-data" style="color: #969696;">
                     {% csrf_token %}
                     {{ profile_form|crispy }}
-                    <button class="btn btn-block btn-dark" type="submit">Submit</button>
+                    <button class="btn btn-block btn-dark" style="background-color: #83D1D6;" type="submit">Submit</button>
                 </form>
             </div>
         </div>
