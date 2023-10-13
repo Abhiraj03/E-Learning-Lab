@@ -22,7 +22,8 @@
 </p>
 
 <br>
-
+More documentation
+https://docs.google.com/document/d/14UoQ3MDLji3useKlnHv3P0bHbFH0_x6JQLVmkmITfHQ/edit?usp=sharing
 ## :dart: About
 
 This website is for a Non-profit in South Africa called Bridge2Africa.
@@ -38,10 +39,10 @@ Admin panel demo: https://www.youtube.com/embed/PvA5yy0Z74E
 
 The following tools were used in this project:
 
--   [Python](https://www.python.org)
--   [Django](https://www.djangoproject.com/)
--   [HTML/CSS]
--   [Bootstrap](https://getbootstrap.com/)
+- [Python](https://www.python.org)
+- [Django](https://www.djangoproject.com/)
+- [HTML/CSS]
+- [Bootstrap](https://getbootstrap.com/)
 
 ## :white_check_mark: Requirements
 
@@ -70,6 +71,7 @@ pip install -r requirements.txt
 #run the app
 python manage.py runserver
 ```
+
 ```bash
 #helpful commands:
 #updating static folder
@@ -125,7 +127,7 @@ holds the css files and images (there are two because when website is deployed i
 upload photos (currently not working)
 
 ## Related links and Helpful Resources
-  
+
 E-Learning Lab Video Walkthrough Series - https://www.youtube.com/playlist?list=PLk_larcd6unLqjW1qg5J9ubESzXW8rH7x
 
 installing pip - https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
@@ -146,13 +148,13 @@ Git Cheat Sheet - https://www.atlassian.com/git/tutorials/atlassian-git-cheatshe
 
 ## Dependencies
 
--   https://pypi.org/project/django-embed-video/
--   https://pypi.org/project/django-ckeditor/
--   https://pypi.org/project/django-tinymce/
--   https://django-crispy-forms.readthedocs.io/en/latest/
--   https://django-vote.readthedocs.io/en/latest/
--   https://pypi.org/project/django-profanity-check/
--   https://github.com/sswapnil2/django-quiz-app
+- https://pypi.org/project/django-embed-video/
+- https://pypi.org/project/django-ckeditor/
+- https://pypi.org/project/django-tinymce/
+- https://django-crispy-forms.readthedocs.io/en/latest/
+- https://django-vote.readthedocs.io/en/latest/
+- https://pypi.org/project/django-profanity-check/
+- https://github.com/sswapnil2/django-quiz-app
 
 ## Production Site
 
@@ -169,4 +171,3 @@ Created by: Phillippe Adriane Inocencio & ASU EPICS
 &#xa0;
 
 <a href="#top">Back to top</a>
-
