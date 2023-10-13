@@ -24,6 +24,7 @@
 <br>
 More documentation
 https://docs.google.com/document/d/14UoQ3MDLji3useKlnHv3P0bHbFH0_x6JQLVmkmITfHQ/edit?usp=sharing
+
 ## :dart: About
 
 This website is for a Non-profit in South Africa called Bridge2Africa.
